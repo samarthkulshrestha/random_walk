@@ -29,6 +29,15 @@ def random_walk_one_d(iters):
         c += p
     return c
 
+def one_d_avg(iters):
+    l = []
+    for i in range(iters):
+        n = random_walk_one_d(iters)
+        l.append(n)
+    avg = sum(l) / len(l)
+    return(avg)
+
 if __name__ == '__main__':
     # random_walk_two_d_draw(100)
-    print(random_walk_one_d(100))
+    # print(random_walk_one_d(100))
+    print(one_d_avg(100))
