@@ -7,4 +7,4 @@ consists of a succession of random steps on some mathematical space.
 
 ### Two Dimensional Visual Representation
 
-![gif](./assets/random_walk.gif)
+<p align="center"><img src="./assets/random_walk.gif" alt="random walk animation" /></p>
