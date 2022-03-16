@@ -1,6 +1,9 @@
-import turtle
 import random
+import turtle
 from operator import add
+
+import matplotlib.pyplot as plt
+
 
 def random_walk_two_d_draw(iters):
     wn = turtle.Screen()
@@ -21,13 +24,31 @@ def random_walk_two_d_draw(iters):
         turtle.goto(x, y)
         o = k
 
-def random_walk_one_d(iters):
+
+def random_walk_one_d(iters, gphs):
     c = 0
-    for j in range(iters):
-        p = random.choice([-1, 0, 1])
-        # print(f"{c}\t+-\t{p}")
-        c += p
+    t = 0
+    for i in range(gphs):
+        c, t = 0, 0
+        xx = [0]
+        yy = [0]
+        for j in range(iters):
+            p = random.choice([-1, 0, 1])
+            # print(f"{c}\t+-\t{p}")
+            c += p
+            t += 10
+            xx.append(t)
+            yy.append(c)
+
+        plt.plot(xx, yy)
+    plt.legend()
+    plt.title("Random Walk")
+    plt.xlabel("Time")
+    plt.ylabel("Value")
+
+    plt.show()
     return c
+
 
 def one_d_avg(iters):
     l = []
@@ -35,9 +56,10 @@ def one_d_avg(iters):
         n = random_walk_one_d(iters)
         l.append(n)
     avg = sum(l) / len(l)
-    return(avg)
+    return avg
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     # random_walk_two_d_draw(100)
-    # print(random_walk_one_d(100))
-    print(one_d_avg(100))
+    print(random_walk_one_d(1000, 3))
+    # print(one_d_avg(100))
