@@ -27,9 +27,10 @@ where an integer Z on the number line starts at 0, and at each step moves +1 or
 + [brownian motion](https://en.wikipedia.org/wiki/Brownian_motion): the path
 traced by a molecule as it travels in a liquid or a gas
 
+##### [MIT's Random Walk Article](https://www.mit.edu/~kardar/teaching/projects/chemotaxis(AndreaSchmidt)/random.htm)
+
 #### Graphically Represented Values Over Time in Three Subsequent Runs of One-Dimensional Random Walk
 
-<p align="center"><img src="./assets/one_d_gph.png" alt="random walk animation" /></p>
 ![1-dimensional random walk](assets/one_d_gph.png)
 
 The `blue`, `green` & `orange` plots represent three distinct runs of the algorithm.
