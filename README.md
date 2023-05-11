@@ -8,8 +8,7 @@ samarth kulshrestha
 <br>
 ![license](https://img.shields.io/github/license/samarthkulshrestha/random_walk?color=%23f2e85a&style=for-the-badge)
 ![repo size](https://img.shields.io/github/repo-size/samarthkulshrestha/random_walk?color=%2346d4a0&style=for-the-badge)
-<br/><br/><br/>
-<br/><br>
+<br/><br/>
 </div>
 
 ## Introduction
