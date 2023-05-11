@@ -21,10 +21,11 @@ Additionally, it is an example of the
 [Markov Process](https://en.wikipedia.org/wiki/Markov_chain).
 
 Examples of random walk include:
-+ [one-dimensional random walk](https://en.wikipedia.org/wiki/Random_walk#One-dimensional_random_walk)
-where an integer Z on the number line which starts
-at 0, and at each step moves +1 or -1 with equal probability
-+ [brownian motion](https://en.wikipedia.org/wiki/Brownian_motion)
++ [one-dimensional random walk](https://en.wikipedia.org/wiki/Random_walk#One-dimensional_random_walk):
+where an integer Z on the number line starts at 0, and at each step moves +1 or
+-1 with equal probability
++ [brownian motion](https://en.wikipedia.org/wiki/Brownian_motion): the path
+traced by a molecule as it travels in a liquid or a gas
 
 #### Graphically Represented Values Over Time in Three Subsequent Runs of One-Dimensional Random Walk
 
